@@ -42,13 +42,13 @@ database fallback). It actually runs: `npm install && npm start` → port 4790 �
 
 ## 📁 Repository Structure
 
-```
-├── oms-api/                 ← demo legacy repo (input) + generated Onboarding Kit (output)
-│   ├── server.js, controllers/, routes/, db/, utils/     ← the legacy codebase
-│   ├── ONBOARDING.md / ARCHITECTURE.md / RISK-REPORT.md / STARTER-TASKS.md
-│   └── index.html           ← Bob X-Ray dashboard (open in any browser)
-└── bob_sessions/            ← proof-of-work screenshots from the Bob session
-    └── PROOF.md             ← index of every screenshot + which Bob capability it proves
+├── oms-api/                 ← the legacy repo (input): undocumented Node.js/Express/PostgreSQL API
+├── ARCHITECTURE.md          ← 🤖 Bob output: 5 Mermaid diagrams (rendered right here on GitHub!)
+├── ONBOARDING.md            ← 🤖 Bob output: setup + folder guide + tribal-knowledge quirks
+├── RISK-REPORT.md           ← 🤖 Bob output: file risk scores + Bus Factor report
+├── STARTER-TASKS.md         ← 🤖 Bob output: 3 starter tasks with TRAP warnings
+├── index.html               ← 🎨 Bob X-Ray dashboard (download & open in any browser — works offline)
+└── bob_sessions/            ← proof-of-work screenshots from the live Bob session (+ PROOF.md index)
 ```
 
 ## 🚀 Run It
